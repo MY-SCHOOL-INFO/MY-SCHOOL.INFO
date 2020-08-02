@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-myschoolinfo-dev-200028-authRole",
+            "UnauthRoleArn": "arn:aws:iam::722028415869:role/amplify-myschoolinfo-dev-200028-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::722028415869:role/amplify-myschoolinfo-dev-200028-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "amplify-myschoolinfo-dev-200028-deployment",
+            "UnauthRoleName": "amplify-myschoolinfo-dev-200028-unauthRole",
+            "StackName": "amplify-myschoolinfo-dev-200028",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:722028415869:stack/amplify-myschoolinfo-dev-200028/614a5c50-d4af-11ea-a461-0ac11ba26f7a",
+            "AmplifyAppId": "d1q8mngodf6fq"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1q8mngodf6fq",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
