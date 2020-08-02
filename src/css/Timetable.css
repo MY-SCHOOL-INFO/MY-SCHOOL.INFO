@@ -1,0 +1,72 @@
+/* 로딩 스크린 */
+
+.loader__container {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 400;
+}
+
+/* 모바일 */
+.loader__mobile .loader__gif {
+  width: 18vh;
+  height: 18vh;
+  margin-bottom: 3vh;
+  animation: rotate_image 1.4s linear infinite;
+}
+
+.loader__mobile .loader__title {
+  font-weight: 500;
+  font-size: 4vh;
+}
+
+/* 데스크탑 */
+.loader__browser .loader__gif {
+  width: 10vh;
+  height: 10vh;
+  margin-bottom: 3vh;
+  animation: rotate_image 1.4s linear infinite;
+}
+
+.loader__browser .loader__title {
+  font-weight: 500;
+  font-size: 2vh;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 메인 페이지 */
+
+.timetable__container {
+  margin: 0 2vh;
+}
+
+.class__selector {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.serach_bar {
+  margin: 0 0 0.5vh 0;
+}
+
+/* 시간표 테이블 */
+
+.timetable__table {
+  border-radius: 8px;
+  border: 1px solid #cde2f5;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.timetable__mobile .timetable__table th {
+  width: 10vh;
+}

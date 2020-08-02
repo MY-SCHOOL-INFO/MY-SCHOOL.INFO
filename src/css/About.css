@@ -1,0 +1,91 @@
+/* 공통 */
+
+.about__container {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 400;
+}
+
+.about__container a:link,
+.about__container a:visited,
+.about__container a:active,
+.about__container a:hover {
+  text-decoration: none;
+  color: #35373e;
+}
+
+#content__title {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #f20732;
+}
+
+#contact__title {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #0439d9;
+}
+
+#comcigan {
+  font-weight: 700;
+}
+
+#contact__icon {
+  margin-right: 1vh;
+  width: 2.5vh;
+  height: 2.5vh;
+}
+
+.contact__content {
+  font-weight: 500;
+}
+
+/* 데스크탑 */
+
+.about__browser .about__content,
+.about__browser .about__contact {
+  margin-bottom: 5vh;
+}
+
+.about__browser .about__content,
+.about__browser .contact__content {
+  font-size: 1.6vh;
+}
+
+.about__browser .content__title,
+.about__browser .contact__title {
+  font-size: 3.5vh;
+  font-weight: 600;
+  margin-bottom: 1vh;
+}
+
+.about__browser .contact_item {
+  margin-bottom: 1vh;
+}
+
+/* 모바일 */
+
+.about__mobile .about__content,
+.about__mobile .about__contact {
+  margin-bottom: 5vh;
+}
+
+.about__mobile .about__content,
+.about__mobile .contact__content {
+  font-size: 2vh;
+}
+
+.about__mobile .content__title,
+.about__mobile .contact__title {
+  font-size: 4vh;
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
+.about__mobile .contact_item {
+  margin-bottom: 1.5vh;
+}

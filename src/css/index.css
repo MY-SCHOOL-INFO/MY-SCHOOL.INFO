@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #f56c76;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background: url("https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg")
+    no-repeat 98% 50% #fff;
+}
+
+select::-ms-expand {
+  display: none;
+}
